@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Reclutamiento extends Model
 {
     use HasFactory;
+    protected $table='reclutamiento';
 protected $primaryKey='ruc';
 protected $fillable=['ruc','fecha','numhijos','sueldo','profesion'];
 
